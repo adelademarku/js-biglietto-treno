@@ -50,6 +50,12 @@ let discountedTotal= total - discountPrice
 
 console.log(discountedTotal)
 
+//html
+
+document.getElementById("totalPrice").innerHTML = discountedTotal;
+
+
+
 
 
 
