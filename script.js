@@ -37,7 +37,7 @@ let discountPrice = 0
 
 
 
-if (age > 0 || age < 18) {
+if (age < 18) {
     discountPrice = total*0.20;  console.log("You have 20% discount as minor: "+discountPrice);
 }
 else if (age >= 65) {
